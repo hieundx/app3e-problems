@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int is_equal(int x, int y) {
-    return !(x ^ y);
+int is_equal(int a, int b) {
+    return !(a ^ b);
 }
 
 int main() {
